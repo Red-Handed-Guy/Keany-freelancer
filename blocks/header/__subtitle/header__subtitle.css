@@ -3,4 +3,9 @@
   color: #FFBB01;
   font-size: 24px;
   line-height: 28px;
+  text-shadow: 
+  1px 0 0 #000, 
+  0 1px 0 #000, 
+  -1px 0 0 #000, 
+  0 -1px 0 #000;
 }

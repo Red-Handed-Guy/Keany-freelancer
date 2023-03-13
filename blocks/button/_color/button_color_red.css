@@ -1,0 +1,10 @@
+.button__color-red {
+  box-shadow: 0px 2px 0px #CE1C3E;
+  background-color: #EC1F46;
+
+}
+
+.button__color-red:active{
+  top: 2px;
+  box-shadow: none;
+}

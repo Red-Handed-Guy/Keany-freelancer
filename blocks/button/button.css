@@ -1,16 +1,10 @@
 .button {
+  border-radius: 6px;
   position: relative;
   text-decoration: none;
-  background-color: #FFBB01;
   display: inline-block;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0px 4px 0px #B68500;
-  border-radius: 6px;
 }
 
-.button:active {
-  top: 4px;
-  box-shadow: none;
-}
