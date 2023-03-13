@@ -1,0 +1,19 @@
+@keyframes bullet{
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+.header__bullet_position_bottom {
+  top: 500px;
+  right: 600px;
+  opacity: 0;
+  }
+
+  .header__button:hover ~ .header__bullet_position_bottom {
+    animation: bullet 0s linear forwards;
+  }

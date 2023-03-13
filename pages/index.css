@@ -22,6 +22,10 @@
 @import url(../blocks/header/__text/header__text.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__about/header__about.css);
+@import url(../blocks/header/__bullet/header__bullet.css);
+@import url(../blocks/header/__bullet/_position/header__bullet_position_bottom.css);
+@import url(../blocks/header/__bullet/_position/header__bullet_position_left.css);
+@import url(../blocks/header/__bullet/_position/header__bullet_position_top.css);
 
 /* Блок button */
 @import url(../blocks/button/button.css);
@@ -62,3 +66,9 @@
 @import url(../blocks/portfolio/__table-item/portfolio__table-item.css);
 @import url(../blocks/portfolio/__table/portfolio__table.css);
 @import url(../blocks/portfolio/__title/portfolio__title.css);
+
+/* Блок gallery */
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__grid//gallery__grid.css);
+@import url(../blocks/gallery/__grid-img/gallery__grid-img.css);
+@import url(../blocks/gallery/__grid-video/gallery__grid-video.css);

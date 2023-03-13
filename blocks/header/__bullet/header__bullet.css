@@ -1,0 +1,7 @@
+
+.header__bullet {
+  height: 100px;
+  width: 100px;
+  background: url(../../../images/header/pngegg.png) center/contain;
+  position: absolute;
+}

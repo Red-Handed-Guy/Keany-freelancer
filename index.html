@@ -1,113 +1,220 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Портфолио Киану</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Портфолио Киану</title>
-  <link rel="stylesheet" href="./pages/index.css">
-</head>
-
-<body>
-  <div class="page">
-    <header class="header container container_position_header">
-      <div class="header__social">
-        <a href="#" class="header__logo-link"><img src="./images/header/discord-logo.png" alt="Дискорд"
-            class="header__logo logo"></a>
-        <ul class="header__social-links social-links">
-          <li class="social-links__item"><a href="#" class="social-links__link"><img src="./images/header/github.png"
-                alt="Гит Хаб" class="social-links__img"></a></li>
-          <li class="social-links__item"><a href="#" class="social-links__link"><img src="./images/header/twitter.png"
-                alt="Твиттер" class="social-links__img"></a></li>
-          <li class="social-links__item"><a href="#" class="social-links__link"><img src="./images/header/instagram.png"
-                alt="Инстаграмм" class="social-links__img"></a></li>
-          <li class="social-links__item"><a href="#" class="social-links__link"><img src="./images/header/facebook.png"
-                alt="Фэйсбук" class="social-links__img"></a></li>
-        </ul>
-      </div>
-      <div class="header__main">
-        <div class="header__about">
-          <p class="header__subtitle">Фрилансер</p>
-          <h1 class="header__title">Киану Ривз</h1>
-          <p class="header__text">
-          Спасаю всякое за большие и ОЧЕНЬ большие деньги. Можете заказать у меня спасение кого или чего угодно, я это сделаю в кратчайшие сроки и сниму фильм о процессе.</p>
-          <a href="#" class="header__button button button__color-yellow">
-            <p class="button__text button__text_button-color_yellow">Бесплатная консультация</p>
-          </a>
+  <body>
+    <div class="page">
+      <header class="header container container_position_header">
+        <div class="header__social">
+          <a href="#" class="header__logo-link"
+            ><img
+              src="./images/header/discord-logo.png"
+              alt="Дискорд"
+              class="header__logo logo"
+          /></a>
+          <ul class="header__social-links social-links">
+            <li class="social-links__item">
+              <a href="#" class="social-links__link"
+                ><img
+                  src="./images/header/github.png"
+                  alt="Гит Хаб"
+                  class="social-links__img"
+              /></a>
+            </li>
+            <li class="social-links__item">
+              <a href="#" class="social-links__link"
+                ><img
+                  src="./images/header/twitter.png"
+                  alt="Твиттер"
+                  class="social-links__img"
+              /></a>
+            </li>
+            <li class="social-links__item">
+              <a href="#" class="social-links__link"
+                ><img
+                  src="./images/header/instagram.png"
+                  alt="Инстаграмм"
+                  class="social-links__img"
+              /></a>
+            </li>
+            <li class="social-links__item">
+              <a href="#" class="social-links__link"
+                ><img
+                  src="./images/header/facebook.png"
+                  alt="Фэйсбук"
+                  class="social-links__img"
+              /></a>
+            </li>
+          </ul>
         </div>
-        <img src="./images/header/Keanu.png" alt="Фото автора" class="header__avatar">
+        <div class="header__main">
+          <div class="header__about">
+            <p class="header__subtitle">Фрилансер</p>
+            <h1 class="header__title">Киану Ривз</h1>
+            <p class="header__text">
+              Спасаю всякое за большие и ОЧЕНЬ большие деньги. Можете заказать у
+              меня спасение кого или чего угодно, я это сделаю в кратчайшие
+              сроки и сниму фильм о процессе.
+            </p>
+            <a href="#" class="header__button button button__color-yellow">
+              <p class="button__text button__text_button-color_yellow">
+                Бесплатная консультация
+              </p>
+            </a>
+            <div class="header__bullet header__bullet_position_top"></div>
+            <div class="header__bullet header__bullet_position_left"></div>
+            <div class="header__bullet header__bullet_position_bottom"></div>
+          </div>
+          <img
+            src="./images/header/Keanu.png"
+            alt="Фото автора"
+            class="header__avatar" />
+        </div>
+      </header>
+      <div class="main">
+        <section class="features container">
+          <h2 class="section-title features__title">Со мной удобно работать</h2>
+          <div class="features__button-position">
+            <a href="#" class="features__button button button_color_red">
+              <p class="button__text button__text_button-color_red">
+                Посмотерть
+              </p>
+            </a>
+          </div>
+          <ul class="features__table">
+            <li class="features__table-item">
+              <img
+                src="./images/features/1.svg"
+                alt="Картинка"
+                class="features__table-img" />
+              <h3 class="features__table-heading">По договору</h3>
+              <p class="features__table-text">
+                Предоставлю все документы для бухгалтерии: договоры, счета и
+                акты. Работаю как ИП без НДС.
+              </p>
+            </li>
+            <li class="features__table-item">
+              <img
+                src="./images/features/2.svg"
+                alt="Картинка"
+                class="features__table-img" />
+              <h3 class="features__table-heading">Точно в срок</h3>
+              <p class="features__table-text">
+                В договоре прописана моя ответственность за срок проекта. Если
+                просрочу — такого не бывает.
+              </p>
+            </li>
+            <li class="features__table-item">
+              <img
+                src="./images/features/3.svg"
+                alt="Картинка"
+                class="features__table-img" />
+              <h3 class="features__table-heading">Ценник под вас</h3>
+              <p class="features__table-text">
+                Если у вас нетиповой проект, сделаю рассчет цены за работу и
+                объясню, как складывается цена.
+              </p>
+            </li>
+            <li class="features__table-item">
+              <img
+                src="./images/features/4.svg"
+                alt="Картинка"
+                class="features__table-img" />
+              <h3 class="features__table-heading">Премежуточные итоги</h3>
+              <p class="features__table-text">
+                Показываю работу поэтапно, а не в последий момент перед крайним
+                сроком.
+              </p>
+            </li>
+            <li class="features__table-item">
+              <img
+                src="./images/features/5.svg"
+                alt="Картинка"
+                class="features__table-img" />
+              <h3 class="features__table-heading">Спасение и фильм</h3>
+              <p class="features__table-text">
+                Если мы договорились о цене проекта, в неё входит всё: спасение
+                и фильм.
+              </p>
+            </li>
+            <li class="features__table-item">
+              <img
+                src="./images/features/6.svg"
+                alt="Картинка"
+                class="features__table-img" />
+              <h3 class="features__table-heading">Не брошу после сдачи</h3>
+              <p class="features__table-text">
+                Научу вас или вашего сотрудника как не спасать заново то, что
+                уже спасено.
+              </p>
+            </li>
+          </ul>
+        </section>
+        <section class="portfolio container">
+          <h2 class="portfolio__title section-title">Выполненные проекты</h2>
+          <ul class="portfolio__table">
+            <li class="portfolio__table-item">
+              <div class="portfolio__table-clue">
+                <h3 class="portfolio__table-heading">Отомстил за собаку</h3>
+                <a
+                  href=""
+                  class="portfolio__table-button button button_color_red">
+                  <p class="button__text button__text_button-color_red">
+                    Посмотреть
+                  </p>
+                </a>
+              </div>
+            </li>
+            <li class="portfolio__table-item">
+              <div class="portfolio__table-clue">
+                <h3 class="portfolio__table-heading">Превзошел Матрицу</h3>
+                <a
+                  href=""
+                  class="portfolio__table-button button button_color_red">
+                  <p class="button__text button__text_button-color_red">
+                    Посмотреть
+                  </p>
+                </a>
+              </div>
+            </li>
+            <li class="portfolio__table-item">
+              <div class="portfolio__table-clue">
+                <h3 class="portfolio__table-heading">
+                  Уделал дьявола и его сына
+                </h3>
+                <a
+                  href=""
+                  class="portfolio__table-button button button_color_red">
+                  <p class="button__text button__text_button-color_red">
+                    Посмотреть
+                  </p>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section class="gallery container">
+          <div class="gallery__grid">
+            <img src="./images/gallery/1.jpeg" alt="картинка" class="gallery__grid-img">
+            <img src="./images/gallery/2.webp" alt="картинка" class="gallery__grid-img">
+            <img src="./images/gallery/3.jpg" alt="картинка" class="gallery__grid-img">
+            <img src="./images/gallery/4.jpg" alt="картинка" class="gallery__grid-img">
+            <img src="./images/gallery/5.webp" alt="картинка" class="gallery__grid-img">
+            <video src="./video/Dodge this (slo-mo, bullet time)   The Matrix [Open Matte].mp4" controls class="gallery__grid-video"></video>
+            <img src="./images/gallery/7.webp" alt="картинка" class="gallery__grid-img">
+            <img src="./images/gallery/8.jpg" alt="картинка" class="gallery__grid-img">
+            <img src="./images/gallery/9.jpg" alt="картинка" class="gallery__grid-img">
+            <img src="./images/gallery/10.jpg" alt="картинка" class="gallery__grid-img">
+            <video src="./video/John Wick (2014) - Assault Rifle Mayhem.mp4" controls class="gallery__grid-video"></video>
+            <img src="./images/gallery/12.jpg" alt="картинка" class="gallery__grid-img">
+          </div>
+        </section>
       </div>
-    </header>
-    <div class="main">
-      <section class="features container">
-        <h2 class="section-title features__title">Со мной удобно работать</h2>
-        <div class="features__button-position"><a href="#" class="features__button button button_color_red">
-            <p class="button__text button__text_button-color_red">Посмотерть</p>
-          </a></div>
-        <ul class="features__table">
-          <li class="features__table-item">
-            <img src="./images/features/1.svg" alt="Картинка" class="features__table-img">
-            <h3 class="features__table-heading">По договору</h3>
-            <p class="features__table-text">Предоставлю все документы для бухгалтерии: договоры, счета и акты. Работаю как ИП без НДС.</p>
-          </li>
-          <li class="features__table-item">
-            <img src="./images/features/2.svg" alt="Картинка" class="features__table-img">
-            <h3 class="features__table-heading">Точно в срок</h3>
-            <p class="features__table-text">В договоре прописана моя  ответственность за срок проекта. Если просрочу — такого не бывает.</p>
-          </li>
-          <li class="features__table-item">
-            <img src="./images/features/3.svg" alt="Картинка" class="features__table-img">
-            <h3 class="features__table-heading">Ценник под вас</h3>
-            <p class="features__table-text">Если у вас нетиповой проект, сделаю рассчет цены за работу и объясню, как складывается цена.</p>
-          </li>
-          <li class="features__table-item">
-            <img src="./images/features/4.svg" alt="Картинка" class="features__table-img">
-            <h3 class="features__table-heading">Премежуточные итоги</h3>
-            <p class="features__table-text">Показываю работу поэтапно, а не в последий момент перед крайним сроком.</p>
-          </li>
-          <li class="features__table-item">
-            <img src="./images/features/5.svg" alt="Картинка" class="features__table-img">
-            <h3 class="features__table-heading">Спасение и фильм</h3>
-            <p class="features__table-text">Если мы договорились о цене проекта, в неё входит всё: спасение и фильм.</p>
-          </li>
-          <li class="features__table-item">
-            <img src="./images/features/6.svg" alt="Картинка" class="features__table-img">
-            <h3 class="features__table-heading">Не брошу после сдачи</h3>
-            <p class="features__table-text">Научу вас или вашего сотрудника как не спасать заново то, что уже спасено.</p>
-          </li>
-        </ul>
-      </section>
-      <section class="portfolio container">
-        <h2 class="portfolio__title section-title">Выполненные проекты</h2>
-        <ul class="portfolio__table">
-          <li class="portfolio__table-item">
-            <div class="portfolio__table-clue">
-              <h3 class="portfolio__table-heading">Отомстил за собаку</h3>
-              <a href="" class="portfolio__table-button button button_color_red">
-                <p class="button__text button__text_button-color_red">Посмотреть</p>
-              </a>
-            </div>
-          </li>
-          <li class="portfolio__table-item">
-            <div class="portfolio__table-clue">
-              <h3 class="portfolio__table-heading">Превзошел Матрицу</h3>
-              <a href="" class="portfolio__table-button button button_color_red">
-                <p class="button__text button__text_button-color_red">Посмотреть</p>
-              </a>
-            </div>
-          </li>
-          <li class="portfolio__table-item">
-            <div class="portfolio__table-clue">
-              <h3 class="portfolio__table-heading">Уделал дьявола и его сына</h3>
-              <a href="" class="portfolio__table-button button button_color_red">
-                <p class="button__text button__text_button-color_red">Посмотреть</p>
-              </a>
-            </div>
-          </li>
-        </ul>
-      </section>
     </div>
-  </div>
-</body>
-
+  </body>
 </html>
