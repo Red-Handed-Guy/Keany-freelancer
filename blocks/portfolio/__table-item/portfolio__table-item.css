@@ -1,0 +1,18 @@
+.portfolio__table-item {
+  position: relative;
+  height: 304px;
+  width: 304px;
+  border-radius: 6px;
+}
+
+.portfolio__table-item:nth-child(1) {
+  background: url(../../../images/portfolio/Отомстил-за-собаку.jpg) center/cover no-repeat;
+}
+
+.portfolio__table-item:nth-child(2) {
+  background: url(../../../images/portfolio/Превзошел-матрицу.jpg) center/cover no-repeat;
+}
+
+.portfolio__table-item:nth-child(3) {
+  background: url(../../../images/portfolio/Уделал-дьявола.jpg) center/cover no-repeat;
+}

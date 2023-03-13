@@ -53,3 +53,12 @@
 @import url(../blocks/features/__table-text/features__table-text.css);
 @import url(../blocks/features/__title/features__title.css);
 @import url(../blocks/features/__button-position/features__button-position.css);
+
+/* Блок portfolio */
+@import url(../blocks/portfolio/portfolio.css);
+@import url(../blocks/portfolio/__table-button/portfolio__table-button.css);
+@import url(../blocks/portfolio/__table-clue/portfolio__table-clue.css);
+@import url(../blocks/portfolio/__table-heading/portfolio__table-heading.css);
+@import url(../blocks/portfolio/__table-item/portfolio__table-item.css);
+@import url(../blocks/portfolio/__table/portfolio__table.css);
+@import url(../blocks/portfolio/__title/portfolio__title.css);
