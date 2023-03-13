@@ -1,0 +1,9 @@
+.header__avatar {
+  border: 10px solid #fff;
+  width: 384px;
+  height: 384px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
