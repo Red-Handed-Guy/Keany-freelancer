@@ -1,0 +1,7 @@
+.features__table-img {
+  height: 52px;
+  width: 52px;
+  object-fit: contain;
+  object-position: center;
+  margin: 0 0 20px 0;
+}

@@ -1,0 +1,10 @@
+.features__table {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  column-gap: 16px;
+  row-gap: 72px;
+  margin: 0 auto;
+}
