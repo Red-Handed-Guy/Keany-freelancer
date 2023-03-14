@@ -7,7 +7,7 @@
 }
 
 .gallery__grid-video:hover {
-  transform: scale(3, 3); 
+  transform: scale(2.5, 2.5); 
   object-fit: contain;
   background-color: rgba(0, 0, 0, 0.5);
 }

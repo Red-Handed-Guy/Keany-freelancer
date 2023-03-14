@@ -1,0 +1,12 @@
+.social-links__img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  object-position: center;
+  transition: transform 0.2s linear;
+}
+
+
+.social-links__link:hover .social-links__img:hover {
+  transform: translate(0, -4px);
+}

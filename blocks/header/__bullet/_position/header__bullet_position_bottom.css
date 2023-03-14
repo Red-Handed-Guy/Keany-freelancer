@@ -12,6 +12,7 @@
   top: 500px;
   right: 600px;
   opacity: 0;
+  transform: rotate(80deg);
   }
 
   .header__button:hover ~ .header__bullet_position_bottom {

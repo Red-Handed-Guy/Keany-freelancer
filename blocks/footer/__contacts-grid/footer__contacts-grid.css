@@ -1,0 +1,7 @@
+.footer__contacts-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
+  column-gap: 96px;
+  row-gap: 40px;
+}

@@ -1,0 +1,9 @@
+.form-container__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
