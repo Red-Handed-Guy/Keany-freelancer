@@ -1,4 +1,7 @@
+/* normalize */
 @import url(../vendor/normalize.css);
+
+/* Шрифты */
 @import url(../fonts/Roboto-Regular/stylesheet.css);
 @import url(../fonts/Roboto-Bold/stylesheet.css);
 
