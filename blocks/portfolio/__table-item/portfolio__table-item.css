@@ -3,6 +3,7 @@
   height: 304px;
   width: 304px;
   border-radius: 6px;
+  overflow: hidden;
 }
 
 .portfolio__table-item:nth-child(1) {
